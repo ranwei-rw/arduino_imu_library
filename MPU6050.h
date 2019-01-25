@@ -918,7 +918,7 @@ class MPU6050 {
             void dmpOverrideQuaternion(long *q);
             uint16_t dmpGetFIFOPacketSize();
             
-            uint8_t dmpGetFullData(&aaWorld, &aaReal, ypr, &gravity, euler, &q, &aa, fifoBuffer);
+            uint8_t dmpGetFullData(VectorInt16 *accworld, VectorInt16 *accreal, float *ypr, VectorFloat *gravity, float *euler, Quaternion *q, VectorInt16 *accl, const uint8_t* packet);
         #endif
 
         // special methods for MotionApps 4.1 implementation

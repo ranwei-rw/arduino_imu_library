@@ -780,7 +780,7 @@ uint16_t MPU6050::dmpGetFIFOPacketSize() {
 }
 
 //  read in from buffer and handle all data together
-uint8 MPU6050::dmpGetFullData(VectorInt16 *accworld, VectorInt16 *accreal, float *ypr, VectorFloat *gravity, float *euler, Quaternion *q, VectorInt16 *accl, const uint8_t* packet)
+uint8_t MPU6050::dmpGetFullData(VectorInt16 *accworld, VectorInt16 *accreal, float *ypr, VectorFloat *gravity, float *euler, Quaternion *q, VectorInt16 *accl, const uint8_t* packet)
 {
     if (packet == 0)
     {
