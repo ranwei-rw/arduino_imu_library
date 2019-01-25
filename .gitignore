@@ -1,0 +1,8 @@
+
+examples/IMU_Zero/IMU_Zero.ino
+examples/MPU6050_DMP6/MPU6050_DMP6.ino
+examples/MPU6050_DMP6/Processing/MPUTeapot/MPUTeapot.pde
+examples/MPU6050_DMP6_ESPWiFi/MPU6050_DMP6_ESPWiFi.ino
+examples/MPU6050_DMP6_ESPWiFi/Processing/MPUOSCTeapot/MPUOSCTeapot.pde
+examples/MPU6050_DMP6_Ethernet/MPU6050_DMP6_Ethernet.ino
+examples/MPU6050_raw/MPU6050_raw.ino
